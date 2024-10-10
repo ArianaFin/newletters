@@ -42,7 +42,7 @@ app.post('/',(req,res)=>{
 const URL  = "https://us8.api.mailchimp.com/3.0/lists/19f1055a50"
 const options = {
     method: "POST",
-    auth: "ariana:86bf4f200e741397351c422e3651d812-us8",
+    auth: "ariana:a7a3d7e98a4885f0f109e7fba5fec830-us8",
 }
    const request = https.request(URL,options,(response)=>{  
      if(response.statusCode === 200){
